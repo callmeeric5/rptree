@@ -1,5 +1,5 @@
 [project]
-name = "rptree"
+name = "distillation-rptree"
 version = "0.1.0"
 description = "RP Tree, a directory tree generator"
 readme = "README.md"
@@ -13,7 +13,7 @@ Homepage = "https://github.com/callmeeric5/rptree"
 Issues = "https://github.com/callmeeric5/rptree/issues"
 
 [project.scripts]
-rptree = "rptree.cli:main"
+rptree = "distillation_rptree.cli:main"
 
 [build-system]
 requires = ["uv_build >= 0.10.10, <0.11.0"]

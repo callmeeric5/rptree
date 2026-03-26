@@ -1,7 +1,6 @@
 import argparse
 import pathlib
 import sys
-
 from . import __version__
 from .rptree import DirectoryTree
 
@@ -71,3 +70,7 @@ def parse_cmd_line_arguments():
         help="Use ANSI colors in the tree output (stdout only)",
     )
     return parser.parse_args()
+
+
+if __name__ == "__main__":
+    main()
